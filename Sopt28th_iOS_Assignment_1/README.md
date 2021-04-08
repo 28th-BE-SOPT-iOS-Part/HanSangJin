@@ -24,10 +24,10 @@ clear버튼은 처음엔 단순히 버튼에 이미지를 넣은 줄 알았는�
         id.clearButtonMode = .whileEditing
         pw.clearButtonMode = .whileEditing
     }
-</pre>
 </code>
+</pre>
 
-:point_up_2: 이 기능은 나중에도 많이 활용될 것 같아 잘 익혀두어야겠다고 생각했다!!!
+:point_up_2:이 기능은 나중에도 많이 활용될 것 같아 잘 익혀두어야겠다고 생각했다!!
 <br>
 <hr>
 
