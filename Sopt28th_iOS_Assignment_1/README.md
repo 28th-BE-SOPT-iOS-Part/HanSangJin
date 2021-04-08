@@ -14,7 +14,7 @@
 ### :pushpin:텍스트필드
 
 <img src="https://user-images.githubusercontent.com/70688424/114026261-04143a80-98b1-11eb-882d-14f8db263cf3.png" width="320px"><br>
-텍스트필드 효과는 https://github.com/raulriera/TextFieldEffects 를 참고 및 활용했다.<br>
+텍스트필드 효과는 https://github.com/raulriera/TextFieldEffects 를 참고했다.<br>
 clear버튼은 처음엔 단순히 버튼에 이미지를 넣은 줄 알았는데, Xcode엔 직사각형 모양의 버튼만 존재하여 동그란 모양을 만들기 위해 한참 고생했다...<br>
 구글링 하다보니 자체적인 기능으로 존재한다는 것을 처음 알게 되었다.
 <pre>
