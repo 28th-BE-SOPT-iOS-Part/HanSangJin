@@ -75,7 +75,8 @@ clear버튼은 처음엔 단순히 버튼에 이미지를 넣은 줄 알았는�
 <br>
 <hr>
 
-### :pushpin:로그인&회원가입
+### :pushpin:화면 조정
+
 <img src="https://user-images.githubusercontent.com/70688424/114030832-ba7a1e80-98b5-11eb-8cb1-507a1bc5c966.gif" width="40%"><br>
 로그인을 하기 위해 텍스트필드를 터치할 때 키보드에 버튼이 가려지는 현상이 생겨 화면을 조정했으며, 화면을 터치하면 키보드가 사라지도록 구현했다.<br>
 
