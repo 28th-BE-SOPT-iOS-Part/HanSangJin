@@ -14,7 +14,7 @@
 |**7주차**| 클론 코딩을 통한 실전 UI 구성, Animation, 통신 보충
 |**8주차**| 기획 경선 + 앱잼 전 보충 세미나 + 앱스토어 배포 가이드
 <hr>
-<img src="https://user-images.githubusercontent.com/70688424/114045763-3dee3c80-98c3-11eb-99eb-390b15d22d07.png">
+<img src="https://user-images.githubusercontent.com/70688424/114612335-fc073100-9cdc-11eb-8f81-3222e3c27125.png">
   
 |  <center>분류</center> |  <center>내용</center> |  <center>README 이동</center> |  <center>기간</center> 
 |:--------:|:--------:|:--------:|:--------:|
