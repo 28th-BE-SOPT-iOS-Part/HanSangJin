@@ -8,7 +8,7 @@
 <img src="https://user-images.githubusercontent.com/70688424/114022334-9e25b400-98ac-11eb-96ca-a4d569e45a04.gif" width="40%">
 <br>
 
-## :notebook_with_decorative_cover:코드리뷰
+## :notebook_with_decorative_cover:리뷰
 <br>
 
 ### :pushpin:텍스트필드
