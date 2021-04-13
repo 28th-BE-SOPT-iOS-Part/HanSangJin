@@ -68,7 +68,9 @@ View 각각의 길이에 제약을 주어 레이아웃을 조절할 수 있지�
 StackView에 넣어 Fill Equally를 설정해준다면 자동으로 조절이 된다.<br>
 이외에도 여러 요소들을 쉽고 깔끔하게 정리하기 위해 사용하기 용이하다.<br><br>
 
-# :notebook_with_decorative_cover:Stack View
+# :notebook_with_decorative_cover:Scroll View
+
+<img src="https://user-images.githubusercontent.com/70688424/114613024-c9aa0380-9cdd-11eb-96bf-a9184300b027.gif" width="40%">
 
 ScrollView란, 스크롤 기능을 통해 상하좌우로 움직이며 추가 컨텐츠를 보여주는 뷰이다.<br>
 
