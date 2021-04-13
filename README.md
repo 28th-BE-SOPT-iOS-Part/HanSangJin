@@ -25,5 +25,5 @@
 
 |  <center>분류</center> |  <center>내용</center> |  <center>README 이동</center> |  <center>기간</center> 
 |:--------:|:--------:|:--------:|:--------:|
-|**2주차 세미나**|Autolayout을 통한 기초 UI 구성, Scroll View의 이해|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/2%EC%A3%BC%EC%B0%A8%20README.md)|21/04/10
-|**2주차 과제**|Autolayout 및 Tabbar 구현하기|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/tree/main/Sopt28th_iOS_Assignment_2)|~21/04/23
+|**2주차 세미나**|Autolayout, Tabbar, Zeplin, StackView, ScrollView|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/2%EC%A3%BC%EC%B0%A8%20README.md)|21/04/10
+|**2주차 과제**|Autolayout 및 Tabbar 구현하기, Zeplin 활용하기|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/tree/main/Sopt28th_iOS_Assignment_2)|~21/04/23
