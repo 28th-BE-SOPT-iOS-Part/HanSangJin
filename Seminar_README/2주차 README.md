@@ -18,7 +18,7 @@ Tabbar Controller는 동시에 여러개의 ViewController를 관리하고,<br>�
 
 # :notebook_with_decorative_cover:스토리보드 관리
 
-Tabbbar Controller와 View Controller는 동시에 사용가능하다.<br>
+Tabbbar Controller와 Navigation Controller는 동시에 사용가능하다.<br>
 하지만, 한 스토리보드에 많은 scene을 넣게 되면 Xcode 빌드가 느려져 메모리 낭비 현상이 발생하거나, Git Merge시에 스토리보드에서 충돌이 발생할 수도 있다.<br>
 이를 해결하기 위해 보통 3가지 방법으로 진행한다.<br><br>
 🎈스토리보드 1개당 View Controller를 1개만 사용해서 파일을 분리한다.<br>
