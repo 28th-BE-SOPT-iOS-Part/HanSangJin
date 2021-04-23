@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sAT-oW-zPV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Sopt28th_iOS_Assignment_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ptx-0o-843">
+                                <rect key="frame" x="20" y="374" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="detail infrom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Xv-lm-7cG">
+                                <rect key="frame" x="20" y="410.5" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="0P1-CA-ZLD">
+                                <rect key="frame" x="20" y="539" width="374" height="123"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Qct-jn-SHp" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="rcr-c1-PJh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" systemColor="systemGray4Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" systemColor="systemGray3Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="nqc-SK-JM9" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="73" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="svr-yd-ubj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" systemColor="systemGray4Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" systemColor="systemGray3Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="I98-wX-lDN">
+                                <rect key="frame" x="20" y="730" width="374" height="112"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVl-rP-4Ey">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <color key="backgroundColor" red="0.98039215686274506" green="0.89803921568627454" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="fsv-kQ-KCY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="카카오계정 로그인">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JVa-n3-vAT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgF-u5-5Rt">
+                                        <rect key="frame" x="0.0" y="62" width="374" height="50"/>
+                                        <color key="backgroundColor" red="0.98039215686274506" green="0.89803921568627454" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="K2Q-kt-BoL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="새로운 카카오계정 만들기">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="signUpBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cdf-zD-wcY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="I98-wX-lDN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1bK-Dq-klh"/>
+                            <constraint firstItem="3Xv-lm-7cG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="93V-d7-YuG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ptx-0o-843" secondAttribute="trailing" constant="20" id="BlY-Kt-egn"/>
+                            <constraint firstItem="I98-wX-lDN" firstAttribute="top" secondItem="0P1-CA-ZLD" secondAttribute="bottom" constant="68" id="CKx-jk-yJj"/>
+                            <constraint firstItem="Ptx-0o-843" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fo3-tW-BPa"/>
+                            <constraint firstItem="0P1-CA-ZLD" firstAttribute="top" relation="lessThanOrEqual" secondItem="3Xv-lm-7cG" secondAttribute="bottom" constant="108" id="S2Y-Rc-blu"/>
+                            <constraint firstItem="0P1-CA-ZLD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Sqk-w1-1Pg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0P1-CA-ZLD" secondAttribute="trailing" constant="20" id="iy4-BJ-6b3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I98-wX-lDN" secondAttribute="bottom" constant="20" id="j4W-Pv-1WB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Xv-lm-7cG" secondAttribute="trailing" constant="20" id="jyo-9j-I8l"/>
+                            <constraint firstItem="Ptx-0o-843" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="250" constant="20" id="kLH-Ve-745"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I98-wX-lDN" secondAttribute="trailing" constant="20" id="slA-Bh-9g6"/>
+                            <constraint firstItem="3Xv-lm-7cG" firstAttribute="top" secondItem="Ptx-0o-843" secondAttribute="bottom" constant="10" id="ucC-bA-Vl1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="N6l-UF-K5E"/>
+                    <connections>
+                        <outlet property="detailInform" destination="3Xv-lm-7cG" id="M7H-s8-np9"/>
+                        <outlet property="id" destination="Qct-jn-SHp" id="jvV-Ne-jtc"/>
+                        <outlet property="loginBtn" destination="XVl-rP-4Ey" id="mju-bR-Oub"/>
+                        <outlet property="pw" destination="nqc-SK-JM9" id="t3U-CX-s1a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937.5" y="82.5"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="pZL-zH-aI3">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" id="AA5-pa-gw2" customClass="SignUpViewController" customModule="Sopt28th_iOS_Assignment_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bTN-gq-lpZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ig-Xd-gIJ">
+                                <rect key="frame" x="20" y="402" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flO-Z9-ZPT">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.89803921568627454" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="j9l-Df-qEe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="새로운 카카오계정 만들기">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpBtnAction:" destination="AA5-pa-gw2" eventType="touchUpInside" id="BFK-Pe-ggb"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="ZVJ-DR-uwA">
+                                <rect key="frame" x="20" y="528" width="374" height="196"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-Ar-0WI" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="hqe-MK-fyW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" systemColor="systemGray4Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" systemColor="systemGray3Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VPY-rQ-bSu" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="73" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="L4f-kG-CyC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" systemColor="systemGray4Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" systemColor="systemGray3Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호 확인" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CuI-8o-kMQ" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="146" width="374" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="RyY-8c-j6C"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" systemColor="systemGray4Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" systemColor="systemGray3Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v2Q-rI-7ke"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZVJ-DR-uwA" firstAttribute="leading" secondItem="v2Q-rI-7ke" secondAttribute="leading" constant="20" id="HUl-o7-eKe"/>
+                            <constraint firstItem="v2Q-rI-7ke" firstAttribute="trailing" secondItem="ZVJ-DR-uwA" secondAttribute="trailing" constant="20" id="S8N-eM-NRn"/>
+                            <constraint firstItem="v2Q-rI-7ke" firstAttribute="trailing" secondItem="flO-Z9-ZPT" secondAttribute="trailing" constant="20" id="bxC-gr-L7P"/>
+                            <constraint firstItem="flO-Z9-ZPT" firstAttribute="leading" secondItem="v2Q-rI-7ke" secondAttribute="leading" constant="20" id="eEN-T0-iMI"/>
+                            <constraint firstItem="ZVJ-DR-uwA" firstAttribute="top" secondItem="1Ig-Xd-gIJ" secondAttribute="bottom" constant="99.5" id="fjR-hl-D1t"/>
+                            <constraint firstItem="flO-Z9-ZPT" firstAttribute="top" secondItem="ZVJ-DR-uwA" secondAttribute="bottom" constant="68" id="m8N-gG-p0n"/>
+                            <constraint firstItem="1Ig-Xd-gIJ" firstAttribute="leading" secondItem="v2Q-rI-7ke" secondAttribute="leading" constant="20" id="ncn-hU-WjG"/>
+                            <constraint firstItem="v2Q-rI-7ke" firstAttribute="trailing" secondItem="1Ig-Xd-gIJ" secondAttribute="trailing" constant="20" id="uPH-Jc-qiL"/>
+                            <constraint firstItem="1Ig-Xd-gIJ" firstAttribute="top" secondItem="v2Q-rI-7ke" secondAttribute="top" priority="250" constant="20" id="ubU-CK-xG9"/>
+                            <constraint firstItem="v2Q-rI-7ke" firstAttribute="bottom" secondItem="flO-Z9-ZPT" secondAttribute="bottom" constant="20" id="zYB-Y7-3fD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="id" destination="OdR-Ar-0WI" id="dWd-7X-apL"/>
+                        <outlet property="pw" destination="VPY-rQ-bSu" id="OyX-Ds-mKe"/>
+                        <outlet property="pwCheck" destination="CuI-8o-kMQ" id="YJ7-o5-MWs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6iC-QF-Jif" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1630" y="84"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GrX-4o-bDc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="sAT-oW-zPV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H3r-1U-WNN">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vpM-ut-dk5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ERx-EV-Ecb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SCX-ra-Sby">
+            <objects>
+                <tabBarController storyboardIdentifier="TabHome" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bDn-HI-07H" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gvi-CK-Ubg">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemGray3Color"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vWg-No-qem" kind="relationship" relationship="viewControllers" id="u3o-g9-fSl"/>
+                        <segue destination="jjg-S6-lo7" kind="relationship" relationship="viewControllers" id="wjx-PX-vct"/>
+                        <segue destination="7HK-14-fnG" kind="relationship" relationship="viewControllers" id="o15-2i-9yl"/>
+                        <segue destination="elr-IN-yFt" kind="relationship" relationship="viewControllers" id="fgz-rM-GXD"/>
+                        <segue destination="XMq-bG-c6L" kind="relationship" relationship="viewControllers" id="b3s-lP-cGB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bOq-Xv-z0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2533" y="82"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="kEZ-ka-y3X">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="vWg-No-qem" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Y0Q-9q-5GV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3T3-qb-KKg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3051" y="-123"/>
+        </scene>
+        <!--ChatRoom-->
+        <scene sceneID="oC3-Ox-uBU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChatRoom" id="jjg-S6-lo7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="kYf-uk-ebT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPP-EL-PAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3070" y="-32"/>
+        </scene>
+        <!--Sharp-->
+        <scene sceneID="Mla-i9-FN6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Sharp" id="7HK-14-fnG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zcz-0h-0J2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOb-gg-GAH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3051" y="40"/>
+        </scene>
+        <!--Shopping-->
+        <scene sceneID="r2O-C9-7BL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Shopping" id="elr-IN-yFt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="QHp-Vd-bhW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XQa-zN-Pco" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3067" y="115"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="4zJ-sr-CTo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Setting" id="XMq-bG-c6L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="2o1-PU-g0K"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9hp-xl-fhG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3057" y="236"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="CuI-8o-kMQ">
+            <size key="intrinsicContentSize" width="109" height="24"/>
+        </designable>
+        <designable name="OdR-Ar-0WI">
+            <size key="intrinsicContentSize" width="165.5" height="25.5"/>
+        </designable>
+        <designable name="Qct-jn-SHp">
+            <size key="intrinsicContentSize" width="165.5" height="25.5"/>
+        </designable>
+        <designable name="VPY-rQ-bSu">
+            <size key="intrinsicContentSize" width="69.5" height="24"/>
+        </designable>
+        <designable name="nqc-SK-JM9">
+            <size key="intrinsicContentSize" width="69.5" height="24"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
