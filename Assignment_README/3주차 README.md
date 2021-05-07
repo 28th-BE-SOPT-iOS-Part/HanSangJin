@@ -1,10 +1,10 @@
 ## :notebook_with_decorative_cover:3주차 과제 : TableView 및 CollectionView 구현하기
 
-<img src="https://user-images.githubusercontent.com/70688424/117496143-94799400-afb1-11eb-8f13-b2894ee69dc7.png">
+<img src="https://user-images.githubusercontent.com/70688424/117496143-94799400-afb1-11eb-8f13-b2894ee69dc7.png" width="70%">
 
-<img src="https://user-images.githubusercontent.com/70688424/117496201-ab1feb00-afb1-11eb-956b-e272b0ce1c59.png">
+<img src="https://user-images.githubusercontent.com/70688424/117496201-ab1feb00-afb1-11eb-956b-e272b0ce1c59.png" width="70%">
 
-<img src="https://user-images.githubusercontent.com/70688424/117496233-b6731680-afb1-11eb-8de2-312ac07c78e8.png">
+<img src="https://user-images.githubusercontent.com/70688424/117496233-b6731680-afb1-11eb-8de2-312ac07c78e8.png" width="70%">
 
 <br>
 
