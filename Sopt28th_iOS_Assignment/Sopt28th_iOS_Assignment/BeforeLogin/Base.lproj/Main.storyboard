@@ -12,7 +12,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Sopt28th_iOS_Assignment_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Sopt28th_iOS_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,7 +133,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="pZL-zH-aI3">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="AA5-pa-gw2" customClass="SignUpViewController" customModule="Sopt28th_iOS_Assignment_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="AA5-pa-gw2" customClass="SignUpViewController" customModule="Sopt28th_iOS_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bTN-gq-lpZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,10 +322,10 @@
             </objects>
             <point key="canvasLocation" x="3067" y="115"/>
         </scene>
-        <!--Setting-->
+        <!--More-->
         <scene sceneID="4zJ-sr-CTo">
             <objects>
-                <viewControllerPlaceholder storyboardName="Setting" id="XMq-bG-c6L" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="More" id="XMq-bG-c6L" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="2o1-PU-g0K"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hp-xl-fhG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

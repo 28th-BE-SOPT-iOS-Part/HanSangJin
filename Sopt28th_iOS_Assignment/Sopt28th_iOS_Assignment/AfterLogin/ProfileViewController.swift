@@ -8,7 +8,12 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var profileName: UILabel!
     var panGesture: UIPanGestureRecognizer?
+    var changeImage: String?
+    var changeName: String?
     
     // MARK: - viewDidLoad
     override func viewDidLoad() {
@@ -16,6 +21,15 @@ class ProfileViewController: UIViewController {
 
         panGesture = UIPanGestureRecognizer(target: self, action: #selector(dragDownDissmiss(_:)))
         view.addGestureRecognizer(panGesture!)
+        setProfile()
+    }
+    
+    // MARK: - 프로필 데이터 설정
+    func setProfile() {
+        if let image = UIImage(named: changeImage!) {
+            profileImage.image = image
+        } else { return }
+        profileName.text = changeName
     }
     
     // MARK: - 프로필 닫기 버튼 구현
