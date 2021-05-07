@@ -27,3 +27,11 @@
 |:--------:|:--------:|:--------:|:--------:|
 |**2주차 세미나**|Autolayout, Tabbar, Zeplin, StackView, ScrollView|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/2%EC%A3%BC%EC%B0%A8%20README.md)|21/04/10
 |**2주차 과제**|Autolayout 및 Tabbar 구현하기, Zeplin 활용하기|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/2%EC%A3%BC%EC%B0%A8%20README.md)|~21/04/23
+<hr>
+<img src="https://user-images.githubusercontent.com/70688424/117505901-c265d500-afbf-11eb-97e3-aa71b6d67460.jpg">
+
+|  <center>분류</center> |  <center>내용</center> |  <center>README 이동</center> |  <center>기간</center> 
+|:--------:|:--------:|:--------:|:--------:|
+|**3주차 세미나**|데이터 전달, TableView, CollectionView|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/3%EC%A3%BC%EC%B0%A8%20README.md)|21/04/24
+|**3주차 과제**|TableView 활용, CollectionView 구현|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/3%EC%A3%BC%EC%B0%A8%20README.md)|~21/05/07
+
