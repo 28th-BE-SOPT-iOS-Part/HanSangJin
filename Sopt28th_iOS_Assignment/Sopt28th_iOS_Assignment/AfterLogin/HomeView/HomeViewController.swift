@@ -116,6 +116,10 @@ extension HomeViewController: UITableViewDelegate {
             profileVC.changeImage = myData.imageName
             profileVC.changeName = myData.name
         }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+        
         present(profileVC, animated: true, completion: nil)
     }
     

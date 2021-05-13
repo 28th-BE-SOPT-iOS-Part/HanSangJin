@@ -177,10 +177,10 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VPY-rQ-bSu" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="qxe-ls-NYz" customClass="HoshiTextField" customModule="TextFieldEffects">
                                         <rect key="frame" x="0.0" y="73" width="374" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="L4f-kG-CyC"/>
+                                            <constraint firstAttribute="height" constant="50" id="JEW-kE-84D"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -193,10 +193,10 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호 확인" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CuI-8o-kMQ" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호 확인" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="4lU-dX-WG7" customClass="HoshiTextField" customModule="TextFieldEffects">
                                         <rect key="frame" x="0.0" y="146" width="374" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="RyY-8c-j6C"/>
+                                            <constraint firstAttribute="height" constant="50" id="cgd-d1-Aed"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -229,8 +229,8 @@
                     </view>
                     <connections>
                         <outlet property="id" destination="OdR-Ar-0WI" id="dWd-7X-apL"/>
-                        <outlet property="pw" destination="VPY-rQ-bSu" id="OyX-Ds-mKe"/>
-                        <outlet property="pwCheck" destination="CuI-8o-kMQ" id="YJ7-o5-MWs"/>
+                        <outlet property="pw" destination="qxe-ls-NYz" id="vHE-CU-26z"/>
+                        <outlet property="pwCheck" destination="4lU-dX-WG7" id="RBQ-0B-web"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6iC-QF-Jif" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -334,7 +334,7 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="CuI-8o-kMQ">
+        <designable name="4lU-dX-WG7">
             <size key="intrinsicContentSize" width="109" height="24"/>
         </designable>
         <designable name="OdR-Ar-0WI">
@@ -343,10 +343,10 @@
         <designable name="Qct-jn-SHp">
             <size key="intrinsicContentSize" width="165.5" height="25.5"/>
         </designable>
-        <designable name="VPY-rQ-bSu">
+        <designable name="nqc-SK-JM9">
             <size key="intrinsicContentSize" width="69.5" height="24"/>
         </designable>
-        <designable name="nqc-SK-JM9">
+        <designable name="qxe-ls-NYz">
             <size key="intrinsicContentSize" width="69.5" height="24"/>
         </designable>
     </designables>

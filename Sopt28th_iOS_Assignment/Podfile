@@ -5,6 +5,7 @@ target 'Sopt28th_iOS_Assignment' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 pod 'TextFieldEffects'
+pod 'Alamofire'
   # Pods for Sopt28th_iOS_Assignment
 
 end

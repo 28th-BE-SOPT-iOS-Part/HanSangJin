@@ -25,19 +25,36 @@ class MainViewController: UIViewController {
     // MARK: - 로그인 버튼 구현
     @IBAction func loginBtnAction(_ sender: Any) {
         if id.text == "" {
-            let alert = UIAlertController(title: "알림", message: "이메일 또는 전화번호를 확인하세요", preferredStyle: .alert)
-            let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
-            alert.addAction(ok)
-            self.present(alert, animated: true, completion: nil)
+            self.makeAlert(title: "알림", message: "이메일 또는 전화번호를 확인하세요.")
         } else if pw.text == "" {
-            let alert = UIAlertController(title: "알림", message: "비밀번호를 확인하세요.", preferredStyle: .alert)
-            let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
-            alert.addAction(ok)
-            self.present(alert, animated: true, completion: nil)
+            self.makeAlert(title: "알림", message: "비밀번호를 확인하세요.")
         } else {
-            guard let nextVC = self.storyboard?.instantiateViewController(identifier: "TabHome") as? UITabBarController else { return }
-            nextVC.modalPresentationStyle = .fullScreen
-            self.present(nextVC, animated: true, completion: clearText)
+            self.loginAction()
+        }
+    }
+    
+    func loginAction()
+    {
+        LoginService.shared.login(email: self.id.text!, password: self.pw.text!) { result in
+            switch result
+            {
+            case .success(let message):
+                if let message = message as? String{
+                    self.makeAlert(title: "알림", message: message, okAction: {_ in
+                        guard let nextVC = self.storyboard?.instantiateViewController(identifier: "TabHome") as? UITabBarController else { return }
+                        nextVC.modalPresentationStyle = .fullScreen
+                        self.navigationController?.pushViewController(nextVC, animated: true)
+                        
+                    }, completion: nil)
+                }
+            case .requestErr(let message):
+                if let message = message as? String{
+                    self.makeAlert(title: "알림",
+                                   message: message)
+                }
+            default :
+                print("ERROR")
+            }
         }
     }
     
