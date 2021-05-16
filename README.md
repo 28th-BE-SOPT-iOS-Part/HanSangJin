@@ -34,4 +34,11 @@
 |:--------:|:--------:|:--------:|:--------:|
 |**3주차 세미나**|데이터 전달, TableView, CollectionView|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/3%EC%A3%BC%EC%B0%A8%20README.md)|21/04/24
 |**3주차 과제**|TableView 활용, CollectionView 구현|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/3%EC%A3%BC%EC%B0%A8%20README.md)|~21/05/07
+<hr>
+<img src="https://user-images.githubusercontent.com/70688424/118406817-7f3eec80-b6b8-11eb-81c0-4a4748e37654.jpg">
+
+|  <center>분류</center> |  <center>내용</center> |  <center>README 이동</center> |  <center>기간</center> 
+|:--------:|:--------:|:--------:|:--------:|
+|**4주차 세미나**|Networking, Alamofire|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/4%EC%A3%BC%EC%B0%A8%20README.md)|21/05/08
+|**4주차 과제**|서버 연동(로그인, 회원가입)|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/4%EC%A3%BC%EC%B0%A8%20README.md)|~21/05/14
 
