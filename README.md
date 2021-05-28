@@ -42,3 +42,24 @@
 |**4주차 세미나**|Networking, Alamofire|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/4%EC%A3%BC%EC%B0%A8%20README.md)|21/05/08
 |**4주차 과제**|서버 연동(로그인, 회원가입)|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/4%EC%A3%BC%EC%B0%A8%20README.md)|~21/05/14
 
+<img src="https://user-images.githubusercontent.com/70688424/120029960-ccfd1280-c031-11eb-8e62-74a5f4c09dfe.png" width="483px" height="273px">
+
+<table>
+    <tr>
+        <th>분류</th>
+        <th>내용</th>
+        <th>날짜</th>
+        <th>링크</th>
+    </tr>
+    <tr>
+        <td><b>5주차 세미나</b></td>
+        <td>디자인 합동 세미나</td>
+        <td>21/05/15</td>
+        <td rowspan="2"><a href="https://github.com/WATCHA-Redesign/WATCHA-iOS">Link🍎</td>
+    </tr>
+    <tr>
+        <td><b>6주차 세미나</b></td>
+        <td>서버 합동 세미나</td>
+        <td>21/05/22</td>
+    </tr>
+</table>
