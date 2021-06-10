@@ -41,7 +41,7 @@
 |:--------:|:--------:|:--------:|:--------:|
 |**4주차 세미나**|Networking, Alamofire|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/4%EC%A3%BC%EC%B0%A8%20README.md)|21/05/08
 |**4주차 과제**|서버 연동(로그인, 회원가입)|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Assignment_README/4%EC%A3%BC%EC%B0%A8%20README.md)|~21/05/14
-
+<hr>
 <img src="https://user-images.githubusercontent.com/70688424/120029960-ccfd1280-c031-11eb-8e62-74a5f4c09dfe.png" width="483px" height="273px">
 
 <table>
@@ -63,3 +63,17 @@
         <td>21/05/22</td>
     </tr>
 </table>
+
+<hr>
+<img src="https://user-images.githubusercontent.com/70688424/121519678-f56f0e80-ca2c-11eb-8497-0fac07f0e95d.png">
+
+|  <center>분류</center> |  <center>내용</center> |  <center>날짜</center> |  <center>링크</center> 
+|:--------:|:--------:|:--------:|:--------:|
+|**무박 2일 해커톤**|킥하고 싶은 순간, ㅋick|21/05/22|[Link🍎](https://github.com/SOPT28th-SOPKATHON-Kick/Kick_iOS)
+
+<hr>
+<img src="https://user-images.githubusercontent.com/70688424/121518581-9a88e780-ca2b-11eb-8e20-b963f0a244bc.jpg" width="483px">
+
+|  <center>분류</center> |  <center>내용</center> |  <center>날짜</center> |  <center>README 이동</center> 
+|:--------:|:--------:|:--------:|:--------:|
+|**7주차 세미나**|UI, Animation|21/05/29|[Link🍎](https://github.com/28th-BE-SOPT-iOS-Part/HanSangJin/blob/main/Seminar_README/7%EC%A3%BC%EC%B0%A8%20README.md)
